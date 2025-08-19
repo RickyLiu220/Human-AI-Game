@@ -1,0 +1,39 @@
+body {
+    background: black;
+    color: greenyellow;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+input, button {
+    width: 16rem;
+    height: 2rem;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    border: 1px solid greenyellow;
+    background: black;
+    color: greenyellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+div.SignUp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+
+/* Responsive rules */
