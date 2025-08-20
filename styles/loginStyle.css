@@ -35,4 +35,9 @@ div.SignUp {
     gap: 0.4rem;
 }
 
+#message {
+    color: red;
+}
+
+
 /* Responsive rules */
