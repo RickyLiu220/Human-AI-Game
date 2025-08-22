@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HumanOrAI?</title>
-        <link rel = "stylesheet" href = "../styles/loginStyle.css" type = "text/css">
+        <link rel = "stylesheet" href = "../styles/game.css" type = "text/css">
     </head> 
     <body>
         <section>
@@ -12,6 +12,30 @@
                 Human Or AI?
             </h1>
         </section>
+        <section>
+            <h2>
+                Guess which one was written by a human
+            </h2>
+        </section>
+        <section id="textbox">
+            <section class="box" id="1">
+                Loading...
+            </section>
+            <section class="box" id="2">
+                Loading...
+            </section>
+        </section>
+        <section>
+            <p id="errorbox"></p>
+        </section>
+        <section id="resultSection">
+            <p id="result"></p>
+        </section>
+        <section id="scorekeeper">
+            <p id="currscore">Current Score: 0</p>
+            <p id="bestscore">Loading...</p>
+        </section>
     </body>
+    <script src="../scripts/game.js"></script>
 
 </html>

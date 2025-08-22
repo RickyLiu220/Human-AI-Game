@@ -35,5 +35,8 @@ div.SignUp {
     gap: 0.4rem;
 }
 
+#response {
+    color: red;
+}
 
 /* Responsive rules */

@@ -17,6 +17,8 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
         const data = await res.json();
 
         if (data.success) {
+            localStorage.setItem("userId", data.id);
+            localStorage.setItem("highscore", data.highscore);
             window.location.href = "../pages/Game.html";
         } else {
             document.getElementById("message").innerText = "Invalid email or password";

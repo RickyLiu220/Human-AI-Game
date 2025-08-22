@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Insert name here</title>
+        <title>HumanOrAI?</title>
         <link rel = "stylesheet" href = "../styles/signUpStyle.css" type = "text/css">
     </head>
     <body>
@@ -13,22 +13,23 @@
             </h1>
         </section>
         <section>
-            <form action="/login" method="post">
+            <form id="signUp">
                 <input type="text" name="Email" placeholder="Email">
                 <input type="text" name="Password" placeholder="Password">
                 <div>
                     <button type="submit">Sign Up</button>
                 </div>
             </form>
+            <p id="response"></p>
         </section>
         <section class="divider">
             <p>OR</p>
         </section>
         <section class="noAccount">
-            <a href="Game.html">
-                <button>Play Without Account</button>
+            <a href="Login.html">
+                <button>Back to Login</button>
             </a>
         </section>
-        <script src="../scripts/Script.js"></script>
+        <script src="../scripts/signUp.js"></script>
     </body>
 </html>
