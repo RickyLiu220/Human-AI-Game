@@ -12,6 +12,6 @@ Along with this backend, I created a frontend with HTML and CSS, inspired by the
 
 # Key Technologies
 
-*Backend: Node.js, Express.js
-*Database: SQLite
-*Frontend: HTML, CSS
+* Backend: Node.js, Express.js
+* Database: SQLite
+* Frontend: HTML, CSS
