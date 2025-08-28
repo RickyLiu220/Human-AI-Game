@@ -9,3 +9,9 @@ In this game, I wanted players to have something to work towards. To accomplish 
 For the backend, I used Node.js to create an API that handles account creation, login, and updating high scores. The database is powered by SQLite, which stores all user information and high scores.
 
 Along with this backend, I created a frontend with HTML and CSS, inspired by the original game’s theme. The frontend communicates with the Node.js API to provide a seamless and interactive experience for players.
+
+# Key Technologies
+
+*Backend: Node.js, Express.js
+*Database: SQLite
+*Frontend: HTML, CSS
